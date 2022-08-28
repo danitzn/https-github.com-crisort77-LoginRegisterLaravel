@@ -20,7 +20,7 @@ class ProyectController extends Controller {
             'inicio' => 'inicio'
             'usuario' => 'confirmed'
         ]);
-
+/**/
         $user = Proyect::create(request(['name', 'descripcion', 'inicio','usuario']));
 
        /* auth()->login($user);*/
